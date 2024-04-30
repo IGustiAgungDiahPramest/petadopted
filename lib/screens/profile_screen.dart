@@ -60,7 +60,7 @@ class ProfileScreen extends StatelessWidget{
                   ),
                   child: ListTile(
                     title: Text("Email"),
-                    subtitle: Text("gungdiah159@gmail.com"),
+                    subtitle: Text("gungdiahpramesti@gmail.com"),
                     leading: Icon(Icons.email_outlined, color: Colors.white70,),
                     trailing: Icon(Icons.arrow_forward, color: Colors.white70,),
                     tileColor: Colors.white,

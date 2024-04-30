@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/screens/routes/DatasScreen/datas_screen.dart';
 import 'package:my_app/screens/welcome_screen.dart';
 
 void main(){
@@ -11,6 +12,11 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
     debugShowCheckedModeBanner: false,
     home: WelcomeScreen(),
+    initialRoute: '/',
+      routes: {
+        '/welcome' :(context) => WelcomeScreen(),
+        '/datas-screen' :(context) => DatasScreen()
+      },
     );
   }
 }
